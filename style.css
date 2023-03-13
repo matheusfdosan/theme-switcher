@@ -1,0 +1,77 @@
+:root {
+  --dark: #292c35;
+  --light: #f1f1f1;
+  --label: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--light);
+  transition: background 400ms ease-out;
+}
+
+body .toggler {
+  animation: side-out 0.5s ease-out forwards;
+}
+
+.dark {
+  background-color: var(--dark);
+}
+
+.dark .toggler {
+  animation: side-in 0.5s ease-out forwards;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--label);
+  width: 72px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.sun--moon {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.toggler {
+  position: relative;
+  top: -26px;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+@keyframes side-in {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 60%;
+  }
+}
+
+@keyframes side-out {
+  from {
+    left: 60%;
+  }
+
+  to {
+    left: 0;
+  }
+}
