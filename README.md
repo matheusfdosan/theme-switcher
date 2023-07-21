@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Meu próprio portifólio. Veja ele clicando nesse [link](https://matheusfdosan.github.io/desafio-theme-switcher-rocketseat/).
+Meu próprio portifólio. Veja ele clicando nesse [link](https://matheusfdosan.github.io/theme-switcher/).
 
 ## 🔖 Layout
 
